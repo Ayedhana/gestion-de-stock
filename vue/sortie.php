@@ -320,7 +320,7 @@ $commandes = $stmt->fetchAll(PDO::FETCH_ASSOC);
 if (count($commandes) > 0) {
     echo "<table>";
     echo "<tr>
-            <th>Numéro ordinal</th>
+            <th>Numéro Ordinal</th>
             <th>Num de Quitt</th>
              <th>Program</th>
             <th>Date de Sortie</th> 
